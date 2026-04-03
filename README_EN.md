@@ -1,6 +1,6 @@
 # IPSC Events Table
 
-This repository contains a small WordPress plugin file `ipsc-events-table.php` that renders an event table with filters and pagination.
+This repository contains a small WordPress plugin https://theeventscalendar.com/ file `ipsc-events-table.php` that renders an event table with filters and pagination.
 
 ## What it does
 
