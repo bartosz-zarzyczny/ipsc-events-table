@@ -86,3 +86,6 @@ Place this shortcode into any page or post:
 - Added a top support banner with social media links to Instagram, YouTube, Facebook, and X.
 - Added a footer linking to the GitHub repository.
 - Added license files `LICENSE_PL.md` and `LICENSE_EN.md` containing an "as is" disclaimer, liability exclusion, and a requirement not to remove social media and GitHub links without the author's permission.
+
+<img width="2502" height="1273" alt="obraz" src="https://github.com/user-attachments/assets/69efc6ef-35fe-4303-926b-d8606fc28531" />
+
