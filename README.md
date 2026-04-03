@@ -4,7 +4,7 @@ Repozytorium zawiera prosty plik WordPress pluginu `ipsc-events-table.php`, któ
 
 ## Działanie
 
-Plugin wyświetla tabelę eventów z niestandardowej tabeli `prectec_events`, połączoną z postami WordPress i danymi taxonomii. Zapewnia:
+Plugin wyświetla tabelę eventów z niestandardowej tabeli `tec_events`, połączoną z postami WordPress i danymi taxonomii. Zapewnia:
 
 - listę eventów z kolumnami:
   - Nazwa eventu
