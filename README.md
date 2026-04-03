@@ -86,3 +86,6 @@ Wstaw ten shortcode na dowolną stronę lub do posta:
 - Dodano górny baner z wezwaniem do subskrybowania mediów społecznościowych oraz linkami do profili Instagram, YouTube, Facebook i X.
 - Dodano stopkę na dole strony z odnośnikiem do repozytorium GitHub.
 - Dodano pliki licencji `LICENSE_PL.md` i `LICENSE_EN.md`, które zawierają zapis o udostępnieniu kodu "as is", wyłączeniu odpowiedzialności oraz zakazie usuwania linków do social mediów i GitHub bez zgody autora.
+
+<img width="2502" height="1273" alt="obraz" src="https://github.com/user-attachments/assets/ec32a3d7-d3ee-474e-bd72-886116228f13" />
+
