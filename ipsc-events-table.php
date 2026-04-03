@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: IPSC Events Table
- * Description: Wyświetla prostą tabelę eventów z tabeli prectec_events.
+ * Description: Wyświetla prostą tabelę eventów z tabeli tec_events.
  * Version: 1.0
  * Author: Bartek
  */
