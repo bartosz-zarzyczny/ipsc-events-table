@@ -80,3 +80,9 @@ Place this shortcode into any page or post:
 - The code uses `wpdb` for database access and standard WordPress sanitization.
 - The custom event table is assumed to be named `${prefix}tec_events`, where `${prefix}` is set by `$ipsc_table_prefix`.
 - The plugin expects WordPress taxonomy tables for `tribe_events_cat` and `post_tag` data.
+
+## Additional changes
+
+- Added a top support banner with social media links to Instagram, YouTube, Facebook, and X.
+- Added a footer linking to the GitHub repository.
+- Added license files `LICENSE_PL.md` and `LICENSE_EN.md` containing an "as is" disclaimer, liability exclusion, and a requirement not to remove social media and GitHub links without the author's permission.

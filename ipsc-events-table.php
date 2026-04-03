@@ -62,6 +62,83 @@ function ipsc_styles()
   background: #fff;
   font-size: 13px;
 }
+#ipsc-events-wrap .ipsc-social-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 12px 16px;
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 10px;
+  color: #1e3a8a;
+  font-size: 14px;
+}
+#ipsc-events-wrap .ipsc-social-banner span {
+  font-weight: 600;
+}
+#ipsc-events-wrap .ipsc-social-banner a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #c7d2fe;
+  color: #1e3a8a;
+  transition: background .15s, transform .15s;
+}
+#ipsc-events-wrap .ipsc-social-banner a:hover {
+  background: #e0e7ff;
+  transform: translateY(-1px);
+}
+#ipsc-events-wrap .ipsc-social-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+#ipsc-events-wrap .ipsc-social-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+#ipsc-events-wrap .ipsc-footer {
+  margin-top: 22px;
+  padding: 12px 16px;
+  border-top: 1px solid #d6d6e6;
+  color: #475569;
+  background: #f8fafc;
+  border-radius: 0 0 12px 12px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#ipsc-events-wrap .ipsc-github-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #181717;
+}
+#ipsc-events-wrap .ipsc-github-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+#ipsc-events-wrap .ipsc-footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+#ipsc-events-wrap .ipsc-footer a:hover {
+  text-decoration: underline;
+}
 #ipsc-events-wrap .ipsc-main-layout {
   display: flex;
   gap: 20px;
@@ -679,6 +756,12 @@ function ipsc_events_table()
   $form_action = esc_url(strtok($_SERVER['REQUEST_URI'], '?'));
   $html = ipsc_styles();
   $html .= '<div id="ipsc-events-wrap">';
+  $html .= '<div class="ipsc-social-banner"><span>Możesz mnie wesprzeć poprzez subskrybowanie moich social mediów</span>';
+  $html .= '<a href="https://www.instagram.com/mr_bartekz/" target="_blank" rel="noopener noreferrer"><span class="ipsc-social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7.2a4.8 4.8 0 100 9.6 4.8 4.8 0 000-9.6zm0 7.8a3 3 0 110-6 3 3 0 010 6zm5.4-8.94a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0zM19.2 7.5c-.12-1.37-.36-2.32-.77-3.16a4.8 4.8 0 00-2.16-2.16c-.84-.41-1.79-.65-3.16-.77C11.8 1.2 11.07 1.2 9.9 1.2h-.1c-1.37.12-2.32.36-3.16.77a4.8 4.8 0 00-2.16 2.16c-.41.84-.65 1.79-.77 3.16C1.2 9.8 1.2 10.53 1.2 11.7v.1c.12 1.37.36 2.32.77 3.16a4.8 4.8 0 002.16 2.16c.84.41 1.79.65 3.16.77h.1c1.17 0 1.9 0 3.07-.12 1.37-.12 2.32-.36 3.16-.77a4.8 4.8 0 002.16-2.16c.41-.84.65-1.79.77-3.16v-.1c0-1.17 0-1.9-.12-3.07zM21 12.8c-.1 1.5-.34 2.58-.8 3.5a6 6 0 01-2.7 2.7c-.92.46-2 .7-3.5.8-1.16.1-1.5.1-4.5.1s-3.34 0-4.5-.1c-1.5-.1-2.58-.34-3.5-.8a6 6 0 01-2.7-2.7c-.46-.92-.7-2-.8-3.5-.1-1.16-.1-1.5-.1-4.5s0-3.34.1-4.5c.1-1.5.34-2.58.8-3.5a6 6 0 012.7-2.7c.92-.46 2-.7 3.5-.8C8.66 1.2 9 1.2 12 1.2s3.34 0 4.5.1c1.5.1 2.58.34 3.5.8a6 6 0 012.7 2.7c.46.92.7 2 .8 3.5.1 1.16.1 1.5.1 4.5s0 3.34-.1 4.5z"/></svg></span>Instagram</a>';
+  $html .= '<a href="https://www.youtube.com/@Mr_BartekZ" target="_blank" rel="noopener noreferrer"><span class="ipsc-social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.5 6.2a3 3 0 00-2.12-2.12C19.47 3.5 12 3.5 12 3.5s-7.47 0-9.38.58A3 3 0 00.5 6.2 31.3 31.3 0 000 12a31.3 31.3 0 00.5 5.8 3 3 0 002.12 2.12C4.53 20.5 12 20.5 12 20.5s7.47 0 9.38-.58A3 3 0 0023.5 17.8 31.3 31.3 0 0024 12a31.3 31.3 0 00-.5-5.8zM9.8 15.5v-7l6 3.5-6 3.5z"/></svg></span>YouTube</a>';
+  $html .= '<a href="https://www.facebook.com/people/Bartek-IPSC/61587533125970/" target="_blank" rel="noopener noreferrer"><span class="ipsc-social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.406.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.716-1.795 1.763v2.313h3.588l-.467 3.622h-3.121V24h6.116C23.406 24 24 23.406 24 22.676V1.325C24 .593 23.406 0 22.675 0z"/></svg></span>Facebook</a>';
+  $html .= '<a href="https://x.com/Mr_BartekZ" target="_blank" rel="noopener noreferrer"><span class="ipsc-social-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23 5.6a1.25 1.25 0 00-1.43-.67L15 7.2 9.4 1.4a1.25 1.25 0 00-2.17.73l1.4 4.7-5 1.3a1.25 1.25 0 00-.58 2.1l7.3 6.1-3 8.2a1.25 1.25 0 002.05 1.34L12 18.3l6.3 4.4a1.25 1.25 0 002.4-.8l-2.1-8.3 4.2-1.1a1.25 1.25 0 00.7-2.2l-8.6-6.2L23 5.6z"/></svg></span>X</a>';
+  $html .= '</div>';
   $html .= '<div class="ipsc-lang-switcher"><form method="get" action="' . $form_action . '" style="margin:0;">';
   foreach ($_GET as $key => $val) {
     if ($key === 'lang') {
@@ -853,6 +936,9 @@ function ipsc_events_table()
   $html .= '</div>'; // close .ipsc-table-container
   $html .= '</div>'; // close .ipsc-main-layout
 
+  $html .= '<div class="ipsc-footer">';
+  $html .= '<span class="ipsc-github-icon" aria-hidden="true"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span> Projekt dostępny na GitHubie: <a href="https://github.com/bartosz-zarzyczny/ipsc-events-table" target="_blank" rel="noopener noreferrer">github.com/bartosz-zarzyczny/ipsc-events-table</a>';
+  $html .= '</div>';
   // --- Ukryte divy z treścią eventów ---
   $html .= '<div style="display:none" aria-hidden="true">';
   foreach ($events as $event) {

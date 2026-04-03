@@ -80,3 +80,9 @@ Wstaw ten shortcode na dowolną stronę lub do posta:
 - Kod korzysta z `wpdb` do dostępu do bazy danych i standardowej sanitizacji WordPress.
 - Niestandardowa tabela eventów jest traktowana jako `${prefix}tec_events`, gdzie `${prefix}` ustawia się w `$ipsc_table_prefix`.
 - Plugin oczekuje istnienia tabel taksonomii WordPress dla danych `tribe_events_cat` i `post_tag`.
+
+## Dodatkowe zmiany
+
+- Dodano górny baner z wezwaniem do subskrybowania mediów społecznościowych oraz linkami do profili Instagram, YouTube, Facebook i X.
+- Dodano stopkę na dole strony z odnośnikiem do repozytorium GitHub.
+- Dodano pliki licencji `LICENSE_PL.md` i `LICENSE_EN.md`, które zawierają zapis o udostępnieniu kodu "as is", wyłączeniu odpowiedzialności oraz zakazie usuwania linków do social mediów i GitHub bez zgody autora.
